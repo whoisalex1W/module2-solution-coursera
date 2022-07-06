@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*---Small device---*/
+@media (max-width: 767px) {
+    .col-sm-12{
+        float: left;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+/*---Medium device---*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12{
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/*---Large device---*/
+@media (min-width: 992px) {
+    .col-lg-4{
+        float: left;
+    }
+
+    .col-lg-4 {
+        width: 33%;
+    }
 }
 
 .our-menu {
